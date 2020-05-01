@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  api:
+    build: ./
+    image: test/northwindsite
+    container_name: northwind_api
+    build:
+      context: .
+    ports:
+      - "5111:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    
+  sql:
+    image: mcr.microsoft.com/mssql/server:2019-CU4-ubuntu-16.04
+    container_name: northwind_sql
+    ports:
+    - "1551:1433"
+    environment:
+    - ACCEPT_EULA=Y
+    - SA_PASSWORD=Popup45965
