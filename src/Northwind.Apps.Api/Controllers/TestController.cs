@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using NorthwindSite.Core.Data;
+using Northwind.Core.Data;
 
-namespace NorthwindSite.Api.Controllers
+namespace Northwind.Api.Controllers
 {
   [ApiController]
   [Route("[controller]")]
@@ -17,9 +17,7 @@ namespace NorthwindSite.Api.Controllers
     [HttpGet]
     public string Get()
     {
-      var t =_categoryRepository.GetCategories();
-      return "success!";
-
+      return _categoryRepository.GetCategories();
     }
   }
 }

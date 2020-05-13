@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
 using Dapper;
-using NorthwindSite.Core.Domain;
-using System.Linq;
 using Microsoft.Data.SqlClient;
+using Northwind.Core.Domain;
 
-namespace NorthwindSite.Core.Data
+namespace Northwind.Core.Data
 {
   public sealed class CategoryRepository : ICategoryRepository
   {

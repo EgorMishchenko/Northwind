@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Api", "src\NorthwindSite.Api\Northwind.Api.csproj", "{B1602270-AFDA-4598-B0F2-D60A788C7005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Apps.Api", "src\Northwind.Apps.Api\Northwind.Apps.Api.csproj", "{B1602270-AFDA-4598-B0F2-D60A788C7005}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Core", "src\NorthwindSite.Core\Northwind.Core.csproj", "{0D39DA5C-0593-443A-934A-F3A040759138}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Apps.Core", "src\Northwind.Apps.Core\Northwind.Apps.Core.csproj", "{0D39DA5C-0593-443A-934A-F3A040759138}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DC57184E-9ACE-4A21-91C5-FBB44E62CFC8}"
 EndProject

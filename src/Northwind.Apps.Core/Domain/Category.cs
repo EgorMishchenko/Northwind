@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace NorthwindSite.Core.Domain
+﻿namespace Northwind.Core.Domain
 {
   public class Category
   {

@@ -17,7 +17,10 @@ To run the Northwind project you will need:
 
 #### With Docker
 
+To start SQL and Api use "docker-compose up".
+To create Northwind database and fill with test data run "./build.ps1 -MigrateAndSeedWithTestData" in solution folder with PowerShell as admin.
 
+### Troubleshooting
+If you has error "...not digitally signed.." while running ./build.ps1 on local machine use this:
+"Set-ExecutionPolicy Unrestricted LocalMachine"
 
-DB First:
-Scaffold-DbContext "Server=127.0.0.1,1551;Database=Northwind;Trusted_Connection=False;MultipleActiveResultSets=True;User ID=sa;Password=Popup45965" Microsoft.EntityFrameworkCore.SqlServer

@@ -3,9 +3,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using NorthwindSite.Core.Data;
 
-namespace NorthwindSite.Api
+namespace Northwind.Api
 {
   public class Startup
   {

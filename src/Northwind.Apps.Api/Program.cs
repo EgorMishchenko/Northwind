@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace NorthwindSite.Api
+namespace Northwind.Api
 {
   public class Program
   {

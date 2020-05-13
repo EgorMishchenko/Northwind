@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NorthwindSite.Core\NorthwindSite.Core.csproj" />
+    <ProjectReference Include="..\Northwind.Apps.Core\Northwind.Apps.Core.csproj" />
   </ItemGroup>
 
 
